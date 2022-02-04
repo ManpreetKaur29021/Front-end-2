@@ -251,7 +251,18 @@ background-image: linear-gradient(315deg, #f7b750 0%, #ebd33c 74%);
     transform: translateY(1px);
   }
 
-
+.count{
+display: block;
+background-color: #e6e6e6;
+}
+#para{
+    margin-left: 470px;
+    width: 900px;
+    height:45px;
+    padding: 5px;
+    background-color:#dedee1 ;
+    font-size: 1.5rem;
+}
 
   /* FORM */
 
@@ -392,12 +403,12 @@ input{
     background-color: #e6e6e6;
     align-items: center;
 }
-
 .one_c{
     text-align: center;
     margin-top: 4%;
     margin-bottom:0;
 }
+
 
 .n_btn{
     background-color: #dfbe3a;
