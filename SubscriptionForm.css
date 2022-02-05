@@ -365,6 +365,28 @@ input{
 	font-weight: 800 ;
 	font-size: 0.9rem !important;
 }
+
+.main .sub-nav2{
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    /* padding: 0 30px; */
+}
+
+.main .sub-nav2 .item2{
+    cursor:default;
+    width: 25%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sub-nav2 .item2 p{
+	font-weight: 800 ;
+	font-size: 0.9rem !important;
+}
+
 .two .two_a{
     text-align: center;
     justify-content: center;

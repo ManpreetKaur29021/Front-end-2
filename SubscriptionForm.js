@@ -16,8 +16,8 @@ form2.style.display="none";
             item[0].style.backgroundColor="#dedee1";
             
 			form1.style.display="block";
-			form2.style.display="none";
-            document.getElementById('change').innerHTML = '+ Create Subscription';	  
+			form2.style.display="none";	  
+            document.getElementById('change').innerHTML = '+ Create Subscription';
 			
         }
 		
@@ -28,9 +28,8 @@ form2.style.display="none";
 			form2.style.display="block";
 			form1.style.display="none";	  
             document.getElementById('change').innerHTML = '+ Create Plan';
+			
 		}
-
-
 		
 		
         $(".click").click(function(){
