@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body{
+    position: relative;
+     height: 100%;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .navbar .container{
+     display: flex;
+       justify-content: space-between;
+     align-items: center;
+     
+     padding: 1rem;
+     background-color: #ffde50;
+     height: 6rem;
+ }
+ .navbar .container .nav-item{
+     display: inline-block;
+     /* margin-top: 1rem; */
+     font-size: 1.4rem;
+     /* padding: 1rem; */
+    height: 4rem;
+    padding-top: 0.8rem;
+    margin-right:0.5rem;
+    font-weight: bold;
+ }
+
+ .nav-item span{
+     margin-left: 0.5rem;
+
+ }
+ ul{
+     margin-right:80px;
+ }
+ .navbar .container .nav-item a{
+     text-decoration: none;
+     /* border: 2px solid red; */
+     width: 100px;
+     /* background-color: #e8f2ef; */
+     /* margin: 0 auto; */
+     padding: 0.2em 2em;
+
+     /* text-transform: uppercase; */
+   
+     color: #000;
+     outline: none;
+     /* border: none; */
+     cursor: pointer;
+ 
+ }
+ .navbar .container  .nav-border{
+     border: 1px solid black;
+ }
+ .navbar .container  .nav-background{
+    background: #f2bd10;
+}
+
+.form1{
+    position: relative;
+    /* width: 70%; */
+    width: 1350px;
+    /* height: 90vh; */
+    height: 1000px;
+    background-color:  #e6e6e6;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+.box {
+    display: flex;
+}
+.box div{
+    margin-right: 1rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    box-shadow: 5px 3px 5px 1px #c7d0d8;
+}
+.box span{
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+ .form1 .form{
+     display: flex;
+     flex-direction: column;
+     width: 15rem;
+     height: 100%;
+    
+     /* flex-basis: 340px; */
+ }
+ .form input{
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+     padding: 0.8rem;
+     font-size: 1.3rem;
+     width: 18rem;
+ }
+
+
+.form a{
+    color: #e89419;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.bigvol{
+    display:flex;
+}
+.sideright{
+    background-color: #f1eeee;
+    height: 1000px;
+    width: 580px;
+}
+.sideright1{
+    
+    background-color: #f1eeee;
+    height: 585px;
+    width: 580px;
+}
+ .form2{
+     position: absolute;
+     right: 12rem;
+    top: 15rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: left;
+     background-color: #f6f6f6;
+     /* width: 40%; */
+     width: 550px;
+     /* height: 60vh; */
+     height: 700px;
+     /* padding-left: 4rem; */
+     
+     padding-left: 4rem;
+     padding-top: 1rem;
+ }
+.form2 .heading{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+ .form2 .form2-group{
+   margin: -1rem; 
+   font-size: 1.5rem;
+   display:flex;
+   align-items: center;
+}
+.form2-group div{
+    width: 8rem;
+    /* border: 1px solid; */
+}
+.form2-group input{
+    height: 3rem;
+    width: 18rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.form2 .form2-button{
+    display: flex;  
+    align-items: center;
+    margin-left: -1rem; 
+}
+
+.form2-button div{
+    width: 8rem;
+    font-size: 1.4rem;
+}
+
+.form-button{ 
+    background: #ffde50;
+    color: #000;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.form2 .logo-box{  
+  background-color: #ffde50;
+  margin-left:-4rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+/* .logo-box i{
+    margin-left: 0.5rem;
+} */
+
+.logo-box img{
+    height: 4rem;
+    width: 5rem;
+    margin-left: 1rem;
+}
+.logo-box button{
+    width: 10rem;
+    height: 4rem;
+    margin-left: 70px;
+    background-color: #ffbd00;
+    font-size: 1.4rem;
+}
+
+
+
+
+/* footer */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+
+.footer1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: #e6e6e6;
+    height:600px;
+    /* width: 70vw; */
+    width:1345px;
+    padding-left: 10rem;
+    margin-top: -1rem;
+}
+.add{
+    color: #daa325;
+    font-size: 1.2rem;
+    margin-bottom:1rem;
+}
+.text{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.cont{
+    /* margin-bottom: 0.8rem; */
+}
+
+i{
+    margin-right: 5px;
+}
+.lin{
+    width: 660px;
+    margin-left: 0px;
+}
+
+.lefticn{
+    margin-left: -25px;
+    margin-bottom: 1rem;
+}
+
+.lefticn p{
+    margin-bottom: 0.5rem;
+}
+.rightlight{
+    padding-left: 10px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.headright{
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.lastline{
+    padding-left: 20px;
+    /* margin-top:-10px; */
+}
+
+.supphone{
+    /* margin-top: -10px; */
+}
+.inpf{
+    height: 2rem;
+    width: 13rem;
+    margin-top: 0.8rem;
+}
