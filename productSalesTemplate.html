@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="productSalesTemplate.css">
+    <title>Product Sales</title>
+  </head>
+  <body>
+    <form method="post">
+      <div class="logo" style="    margin-top: 63px;">
+        <div class="adjust">
+            <span class="top">Add your logo here</span>
+        </div>
+        <div class="name">
+        <h4>XYZ</h4> </div>
+        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-3">
+              <input style="height: 49px;padding: 6px;border: none;margin-bottom: 14px;width: 328px;" type="text" placeholder="Enter Page Title Here" disabled>
+              <!-- <p style="color: goldenrod;"><b>+ Add a tracker</b></p> -->
+              <p><input style=" padding: 6px; border: none; width: 328px; margin-top: 12px;" type="text" name="product_img" placeholder="Product Images" disabled></p>
+              <p><input style=" padding: 6px; border: none; width: 328px; margin-top: 8px;" type="text" name = "product_desc" placeholder="Product Description" disabled></p>
+              <p><input style=" padding: 6px; border: none;width: 328px; margin-top: 8px;" type="text" name="shipping_in" placeholder="Shipping In" disabled></p>
+              <p><input style=" padding: 6px; border: none;width: 328px;margin-top: 8px;" type="text" name="delivery_time" placeholder="Delivery Time" disabled></p>
+
+             <p class="socialmedia"><b>Share on this :</b>
+              
+                <img src="./images/facebook.png" height="25px">
+                <img src="./images/twitter.png" height="25px">
+                <img src="./images/whatsapp.png" height="25px">
+          </p>
+              <p style="margin-top: 8px;"><h5> Contact Us:</h5></p>
+              <p> <ion-icon style=" margin-left: -19px;" name="mail"></ion-icon> <input style=" padding: 6px; border: none;width: 270px;margin-top:3px;" type="text" value="Enter Support Email" disabled></p>
+              <p> <ion-icon style="margin-left:-19px;" name="call"></ion-icon> <input style=" padding: 6px; border: none;width: 270px;margin-top: 1px;" type="text" value="Enter Support Phone"disabled></p>
+              <p style="margin-top: 3px;"><h5>Terms & Conditions:</h5></p>
+              <div class="termsandconditions invisible">
+
+              <p><input style=" padding: 6px; border: none;width: 270px;margin-top: 1px;" type="text" value="Enter Terms & Conditions" disabled></p>
+              </div >
+              <p style="font-size: small;">You agree to share information entered on this page with XYZ (owner of this page) and B-PAY, adhering to applicable laws.</p>
+              <hr>
+              <h4><ion-icon name="image"></ion-icon> B-PAY</h4>
+              <p style="font-size: small;">Want to create page like this for your business? Visit B-PAY Payment Pages to get started! </p>
+            </div>
+            
+          <div class="col-6 col-sm-3">
+            <div class="box">
+                <br>
+                <p style="margin-left: 28px;font-size: x-large;"><b>Payment Details</b></p>
+
+            <div class="mb-3 row " id="fixedprice" style="margin-left: 46px;">
+              <div class="col-sm-10" style="display: inherit;">
+                <!-- fixed amount field -->
+                <input for="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Amount" disabled>  
+                <input type="text" class="form" style="width: 246px;margin-left: 53px;" value="₹100.0 "disabled>
+              </div>
+          </div>
+          <!-- customer decide field -->
+          <div class="mb-3 row " id="customer" style="margin-left: 46px;">
+            <div class="col-sm-10" style="display: inherit;">
+              <input for="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Amount"disabled >
+              <input type="number" class="form" style="width: 246px;margin-left: 53px;" value="1"> 
+            </div>
+        </div>
+        <!-- Email Field -->
+            <div class="mb-3 row " style="margin-left: 46px;">
+                <div class="col-sm-10" style="display: inherit;">
+                  <input type="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Email"disabled>
+                  <input type="text" class="form" id="staticEmail"style="width: 246px;margin-left: 53px;" >
+                </div>
+            </div>
+            <!-- phone number field -->
+            <div class="mb-3 row " style="margin-left: 46px;" >
+                
+                <div class="col-sm-10" style="display: inherit;">
+                  <input type="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Phone" disabled>
+                  <input type="text" class="form" value=""style="width: 246px;margin-left: 53px;" >
+                </div>
+            </div>
+            <!-- extra field -->
+            <div class="mb-3 row  new " style="margin-left: 46px;" >
+                
+              <div class="col-sm-10" style="display: inherit;">
+                <input type="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Enter Text" disabled>
+                <input type="text" class="form" value=""style="width: 246px;margin-left: 53px;" >
+              </div>
+          </div>
+          <!-- Extra Fixed amount field -->
+            <div class="mb-3 row  idfixedprice  " style="margin-left: 46px;">
+              <div class="col-sm-10" style="display: inherit;">
+                <input for="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Amount" disabled>
+                <input type="number" class="form" style="width: 246px;margin-left: 53px;" value="">
+              </div>
+          </div>
+          <!-- Extra customer decide field -->
+          <div class="mb-3 row  idcustomer " style="margin-left: 46px;">
+            <div class="col-sm-10" style="display: inherit;">
+              <input for="text" class="col-sm-2 col-form-label" style="background-color: #f6f6f6;border: none;" value="Amount"disabled>
+              <input type="number" class="form" style="width: 246px;margin-left: 53px;" value="" > 
+            </div>
+        </div>
+            <div class="pay" style="background-color: #ffde50; margin-top: 80px; width: 520px; height: 85px; display:inline-block">
+              <img style="margin-top: 30px; margin-left: 15px; height:35%; " src="./images/UPI.png">
+              <img style=" margin-left:20px; margin-top: 30px; height:35%; " src="./images/Visa.png">
+              <img style="margin-left:25px ; margin-top:15px; height:55%; " src="./images/Mastercard.png">
+              <button type="submit" class="pay1" style="background-color: #FB972B; border: none; padding: 14px; margin-top: 15px; margin-right: 15px; float: right;"><b>Pay 0.000</b></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>  
+    </form>
+    <script>
+var num=7;// change according to the number of field enter by the user
+
+        if(num==7){
+          $(".pay").css("margin-top","-5px");
+        }
+        if(num==3){
+          $(".box").css("height","407px");
+        }else{
+          $(".box").css("height","502px");
+        }
+
+socialmedia=1; // add social is 1 then it visible else it disapear the social media tag
+
+  if(socialmedia==1){
+        $(".icons").removeClass("invisible")
+  }else{
+    $(".icons").addClass("invisible")
+  }
+
+termsandcondition=1;// add terms and condition field is 1 then it visible else it disapear the terms and condition field
+if(termsandcondition==1){
+  $(".termsandconditions").removeClass("invisible")
+}else{
+  $(".termsandconditions").addClass("invisible")
+
+}
+
+
+    </script>
+      
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
