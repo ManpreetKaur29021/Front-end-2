@@ -1,0 +1,353 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: #e6e6e6 ;
+}
+
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6e6;
+    color: black;
+	margin-bottom:10px ;
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.navbar-links {
+    height: 100%;
+}
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+	font-size: 1.1rem;
+    font-weight: 600 !important;
+}
+.navbar-links li:hover{
+	text-decoration: underline;
+}
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 896px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links ul li {
+        text-align: center;
+    }
+    .navbar-links ul li a {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+
+.main{
+	margin: 50px auto;
+    width: 1250px;
+	height: 580px;
+	background-color: #d4d4d5;
+}
+.main .nav{
+	display: flex;
+    flex-direction: column;
+    float: left;
+	/* align-items: center; */
+	/* justify-content: space-between; */
+	/* padding: 0 30px; */
+    word-wrap: break-word;
+    width: 20%;
+    padding-top: 40px;
+    /* padding-left: 20px; */
+    padding-right: 10px;
+}
+.main .nav .title{
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-left: 20px;
+}
+.main .nav #color{
+    color: #77838d;
+    font-size: 0.8rem;
+    padding-bottom: 75px;
+    padding-left: 20px;
+}
+.main .nav .item{
+	padding: 15px 0;
+	width: 100%;
+	/* text-align: center; */
+	cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.main .form1,
+.main .form2,
+.main .form3,
+.main .form4,
+.main .form5{
+    background-color: #dedee1;
+    margin-left: 220px;
+    /* margin-right: 70px; */
+    margin-top: 60px;
+    height: 460px;
+    position: absolute;
+    width: 960px;
+   padding: 50px 90px;
+   display: none;
+}
+.main .form1{
+	display: block;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    font-size: 0.9rem;
+    font-weight: 550 ;
+}
+input{
+    width:300px;
+	padding: 8px 5px 8px 5px;
+	border: none;
+}
+.form1>p,
+.form2>p{
+    margin-bottom: 30px;
+}
+.form3>p,
+.form4>p{
+    margin-bottom: 20px;
+}
+.main .form1 button{
+    background-color: #e1b92f;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px;
+    float: right;
+    margin-right: -53px;
+    margin-top: 167px;
+}
+.main .form1 button:hover{
+    cursor: pointer;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+textarea{
+    height:100px;
+    width:300px;
+    border: none;
+}
+.radio{
+width:20px;
+}
+::placeholder{
+	font-family: 'DM Sans', sans-serif;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+.url{
+    margin-bottom: 20px;
+ width: 100px;
+}
+
+.f1,
+.f2{
+   display: none;
+   margin-left:100px ;
+}
+.f1{
+    margin-top: 10px;
+    font-size: 0.9rem;
+} 
+
+.f2{
+	font-size: 1.2rem;
+	margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+ .f2 li{
+	margin-bottom: 20px;
+} 
+.main .form2 button{
+    background-color: #e1b92f;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px;
+    float: right;
+    position: absolute;
+    bottom: 19px;
+    right: 23px; 
+}
+.main .form2 button:hover{
+    cursor: pointer;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+.main .form3 button{
+    background-color: #e1b92f;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px;
+    float: right;
+    margin-right: -53px;
+    margin-top: -11px;
+}
+.main .form3 button:hover{
+    cursor: pointer;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.main .form4 button{
+    background-color: #e1b92f;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px;
+    float: right;
+    margin-right: -53px;
+    margin-top: 93px;
+}
+.main .form4 button:hover{
+    cursor: pointer;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.main .form5 button{
+    background-color: #e1b92f;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px;
+    float: right;
+    margin-right: -53px;
+    margin-top: 0px;
+}
+.main .form5 button:hover{
+    cursor: pointer;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+.form5 p{
+    margin-bottom:25px ;
+}
+
+/* .form5 label{
+    float: left;
+}
+
+ .last{
+    display: inline-block;
+}
+ .last input[type="file"]{
+     display: none;
+ }
+ .last label{
+    background-color: white;
+     width: 100%;
+     font-size: 1em;
+     font-weight: 400;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+     padding: 5px;
+     margin-bottom: 15px;
+ }
+ .last label span{
+     color: #e5a83b;
+     font-weight: 500 !important;
+ }
+ .last img{
+     width: 35px;
+     margin-right: 5px;
+     cursor: pointer;
+ }
+
+
+ .last2{
+margin-left: 200px; 
+display: flex;
+flex-direction:row ;
+
+}
+ .last2 input[type="file"]{
+     display: none;
+ }
+ .last2 label{
+    background-color: white;
+     width: 35%;
+     font-size: 1em;
+     font-weight: 400;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+     padding: 5px;
+     margin-bottom: 15px;
+ }
+ .last2 label span{
+     color: #e5a83b;
+     font-weight: 500 !important;
+ }
+ .last2 img{
+     width: 35px;
+     margin-right: 5px;
+     cursor: pointer;
+ }  */
